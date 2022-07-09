@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(//db.onlinewebfonts.com/c/bf80a5f83b4e976a40c0230bd43eeb1e?family=TTLoveliesScriptW10-Regular);
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Serif:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic);
+@font-face {
+    font-family: Brittany;
+    src: url(./font/BrittanySignature.ttf);
+}
+@font-face {
+    font-family: "Angella White";
+    src: url(./font/AngellaWhitePersonalUseFont-ywA8e.otf);
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #f8f4ef;
+    position: relative;
+    margin: 0;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+.address {
+    font-family: Montserrat;
+    color: #9a5b41;
+}
+h1 {
+    font-family: Brittany;
+    color: #9a5b41;
+    text-align: center;
+    font-size: 79px;
+}
+h2  {
+    font-family: "Angella White";
+    text-align: center;
+    font-size: 50px;
+}
+.love-1 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 150px;
+    height: auto;
+}
+.love-2 {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    gap: 10px;
+    justify-items: center;
+}
+img {
+    max-width: 100%;
+    height: 258px;
+    width: 258px;
+}
+#page-1, #page-2, #page-3, #page-4 {
+    flex-grow: 1;
+}
+h3 {
+    font-family: "TTLoveliesScriptW10-Regular";
+    font-size: 30px;
+    text-align: center;
+    transform: rotate(-6.5deg);
+    display: flex;
+    justify-content: center;
+}
+h3 span {
+    text-align: end;
+}
+#page-3 {
+    background-color: white;
+    max-width: 1000px;
+    height: 80vh;
+    position: relative;
+    padding: 0px 50px 0px 30px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.bunga-1    {
+    position: absolute;
+    left: 10px;
+    top: -5px;
+}
+.bunga-2    {
+    position: absolute;
+    right: -25px;
+    bottom: -10px;
+    opacity: 0.5;
+}
+.oc {
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    z-index: 20;
+}
+.letter-content {
+    text-align: justify;
+    letter-spacing: 0.933335px;
+    font-size: 14px;
+    line-height: 37px;
+    position: relative;
+    z-index: 20;
+}
+.regards    {
+    font-family: 'TTLoveliesScriptW10-Regular';
+    margin: 0;
+}
+iframe {
+    width: 1000px;
+    height: 80vh;
+}
+#page-1, #page-2, #page-3, #page-4 {
+    display: none;
+}
+#f1, #f2, #f3   {
+    opacity: 0;
+}
